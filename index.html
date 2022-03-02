@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title> Nelover Water</title>
+</head>
+<body>
+
+<header>
+	<div class="main">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="contacts.html">Contacts</a></li>
+			<li><a href="https://www.google.com/maps/dir//26.2340422,50.5974215/@26.2340252,50.5273812,12z/data=!3m1!4b1">Location</a></li>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="about.html">About</a></li>
+		
+		</ul>
+		<div class="sidebar">
+			<header>My App</header>
+			<ul>
+				<li><a href="#"><i class="fas fa-envelope"></i></a></li>
+				<li><a href="#"><i class="fas fa-sliders-h"></i></a></li>
+				<li><a href="#"><i class="fas fa-question-circle"></i></a></li>
+			</ul>
+
+				
+		</div>
+
+	<div class="background">
+		<center> 
+		<img src="logo1.png"
+			width="600" 
+     height="500" />
+</center>
+	</div>   
+
+
+</header>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+.sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+</style>
+</head>
+<div id="particles-js"></div>
+<script src="particles-js"></script>
+<script src="js/app.js"> </script>
+<div class="sidebar">
+  <a href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+  <a href="services.html"><i class="fa fa-fw fa-wrench"></i> Services</a>
+  <a href="about.html"><i class="fal fa-list-ul"></i> About</a>
+  <a href="contacts.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+</div>
+
+
+</html>
