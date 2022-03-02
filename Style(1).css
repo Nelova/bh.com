@@ -1,0 +1,59 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #313131;
+
+}
+.slider{
+	width: 520px;
+	height: 345px ;
+	background: url(1.jpg);
+	margin: 100px auto;
+	animation: slide 15s infinite;
+}
+@keyframes slide{
+	25%{
+		background: url(2.jpg);
+	}
+	50%{
+		background: url(3.jpg);
+	}
+	75%{
+		background: url(4.jpg);
+	}
+	100%{
+		background: url(1.jpg);
+	} 
+	
+	nav ul{
+		padding: 0;
+		margin: 0;
+		float: right;
+		margin-right: 30px;
+	}
+	nav ul li{
+		background: #2c3e50;
+		position: relative;
+		list-style: none;
+		display: inline-block;
+	}
+	nav ul li a{
+		display: inline-block;
+		padding: 0 15px;
+		color: white;
+		text-decoration: none;
+		line-height: 60px;
+		font-size: 20px;
+	}
+	nav ul li a:hover{
+		background: #243342;
+	}
+	nav ul ul{
+		position: absolute;
+		top:  60px;
+		display: none;
+	}
+	nav ul li:hover > ul{
+		display: block;
+	}
+	
